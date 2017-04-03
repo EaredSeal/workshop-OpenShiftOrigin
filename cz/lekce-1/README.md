@@ -157,7 +157,7 @@ Pro prozkoumání možností webového rozhraní OpenShift Origin nejprve nastav
 
 ``` 
 oc login -u system:admin
-oc adm policy add-cluster-role-to-user cluster-admin admin
+oc adm policy add-cluster-role-to-user cluster-admin system
 ```
 Poté se jako tento uživatel přihlásíme do webové konzole. Vidíme, že máme k dispozici systémové projekty (default) atp. Tyto projekty zahrnují systémové komponenty jako docker registry, metriky, atp.
 
